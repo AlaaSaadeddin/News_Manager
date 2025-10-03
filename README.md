@@ -1,7 +1,10 @@
-
 📰 News Management System
 
-🔹 Challenge
+## 🔹 Live Demo  
+You can check out the live version of the project here:  
+👉 [News Management System - Live Demo](http://your-infinityfree-link.infinityfreeapp.com)
+
+## 🔹 Challenge
 
 Managing online news articles is often difficult without a structured system. News editors need to:
 
@@ -19,7 +22,7 @@ Without a proper system, all of this can be messy and unorganized.
 
 ---
 
-🔹 Solution
+## 🔹 Solution
 
 This project is a News Management System built with PHP and MySQL that allows:
 
@@ -35,9 +38,9 @@ Managing all data in a MySQL database through a simple dashboard.
 
 ---
 
-🔹 User Stories
+## 🔹 User Stories
 
-As a User:
+#### As a User:
 
 I can sign up for a new account.
 
@@ -50,7 +53,7 @@ I can edit or delete (soft delete) my news articles.
 I can view all news articles including deleted ones.
 
 
-As an Admin:
+#### As an Admin:
 
 I can manage categories (add / view).
 
@@ -62,7 +65,7 @@ I can monitor all users and their activity.
 
 ---
 
-🔹 The MVP
+## 🔹 The MVP
 
 User authentication (sign up / login).
 
@@ -76,7 +79,7 @@ Dashboard to display all articles.
 
 ---
 
-🔹 Setup Instructions
+## 🔹 Setup Instructions
 
 1. Clone the repository
 
@@ -113,7 +116,7 @@ http://localhost/news-management
 
 ---
 
-🔹 Technologies
+## 🔹 Technologies
 
 Backend: PHP
 
