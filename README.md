@@ -83,7 +83,7 @@ Dashboard to display all articles.
 
 1. Clone the repository
 
-git clone https://github.com/your-username/news-management-system.git
+git clone https://github.com/AlaaSaadeddin/News_Manager.git
 
 2. Setup Database
 
