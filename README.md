@@ -2,7 +2,7 @@
 
 ## 🔹 Live Demo  
 You can check out the live version of the project here:  
-👉 [News Management System - Live Demo]([http://your-infinityfree-link.infinityfreeapp.com](https://newsmanager.42web.io/deleted_news.php))
+👉 [News Management System - Live Demo]([https://newsmanager.42web.io/deleted_news.php])
 
 ## 🔹 Challenge
 
