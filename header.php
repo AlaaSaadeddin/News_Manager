@@ -27,8 +27,7 @@
 </head>
 <body>
 
-
-<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+<nav class="navbar navbar-expand-xl bg-primary navbar-dark">
     <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Navbar brand -->
@@ -38,50 +37,18 @@
 
         <!-- <a class="navbar-brand" href="#">Brand</a> -->
 
-        <!-- Toggle button -->
-        <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init  aria-label="Toggle navigation"
-        aria-controls="navbarSupportedContent" aria-expanded="false" data-mdb-target="#navbarSupportedContent">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-
-        <!-- Collapsible wrapper -->
+                <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- Link -->
-                 
-                <li class="nav-item">
-                    <span class="navbar-text me-3">مرحباً، <?php echo $_SESSION['user_name']; ?></span>
-                </li>
-
-              
-            </ul>
-
-            <!-- Icons -->
-            <ul class="navbar-nav d-flex flex-row me-1">
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link text-white" href="logout.php">
-                        <i class="fas fa-sign-out-alt"></i> تسجيل الخروج
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="dashboard.php">
+                        <i class="fas fa-home"></i> الصفحة الرئيسية
                     </a>
                 </li>
-            </ul>
-        </div>
-    </div>
-    <!-- Container wrapper -->
-</nav>
-
-
-<div class="container-fluid">
-    <div class="row">
-        <!-- Sidebar -->
-        <div class="col-md-3 col-lg-2 sidebar">
-            <div class="p-3">
-                <h5>القائمة الرئيسية</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="dashboard.php">
-                            <i class="fas fa-home"></i> الصفحة الرئيسية
-                        </a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="add_category.php">
                             <i class="fas fa-plus-circle"></i> إضافة فئة
@@ -107,6 +74,30 @@
                             <i class="fas fa-trash"></i> الأخبار المحذوفة
                         </a>
                     </li>
-                </ul>
-            </div>
+
+
+                
+            </ul>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-auto">
+                <!-- Link -->
+                    
+                <li class="nav-item me-3">
+                    <p class="navbar-text text-white me-3">مرحباً، <?php echo $_SESSION['user_name']; ?></p>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link text-white" href="logout.php">
+                        <i class="fas fa-sign-out-alt"></i> تسجيل الخروج
+                    </a>
+                </li>
+            </ul>
         </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+            <!-- Main Content -->
+            <div class="col-md-12 col-lg-12">

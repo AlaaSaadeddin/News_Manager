@@ -6,7 +6,7 @@ requireLogin();
 
 $news_id = intval($_GET['id'] ?? 0);
 if ($news_id > 0) {
-    // Direct SQL query to update the status
+    //  sql query to update the status
     $update_query = "UPDATE news SET status = 'deleted' WHERE id = $news_id AND status = 'active'";
 
     if ($connection->query($update_query)) {
